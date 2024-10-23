@@ -9,3 +9,5 @@ idea使用hadoop参考了这篇博客：https://www.cnblogs.com/yjyyjy/p/1276317
 不足之处：在我试图同时运行两个任务的时候，出现了输入参数不足的报错。我当时直接选择把两个任务拆开，这样输入目录和输出目录各只有一个了。但我后面想到，是否在我配置参数的时候可以新设置一个输出目录的参数，这样就可以两个任务同时运行了
 
 备注：main.java文件是task2的。要运行task1请将main_stockcount.java改名为main.java后运行
+
+以及我在target中没找到jar文件，因此我上传class文件进行替代
